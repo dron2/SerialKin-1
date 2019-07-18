@@ -1,0 +1,39 @@
+.button {
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  background: #65b1e4;
+  border-top: 1px solid #88cfff;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  text-shadow: 1px 1px 0px #4aa3;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition-duration: .2s;
+  box-shadow: inset 0 -2px 1px rgba(0, 0, 0, .3);
+
+  &:hover {
+    color: #2980b9;
+    text-shadow: 1px 1px 0px #71C6FF;
+  }
+
+  &:active {
+    box-shadow: inset 0 2px 3px rgba(0, 0, 0, .3);
+  }
+
+  &-green {
+    background-color: #2ecc71;
+
+    &:hover {
+      color: #20914F;
+      text-shadow: 0px 1px 0px #22E172;
+    }
+
+    &:active {
+      //box-shadow: inset 0px 3px 5px #1d751c;
+    }
+  }
+}

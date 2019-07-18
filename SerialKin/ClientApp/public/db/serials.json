@@ -1,0 +1,44 @@
+[
+  {
+    "id": 0,
+    "link": "/rick-and-morty",
+    "title": "Рик и Морти",
+    "image": "/images/rick-and-morty.jpeg"
+  },
+  {
+    "id": 1,
+    "link": "/simpsons",
+    "title": "Симпсоны",
+    "image": "/images/simpsons.jpeg"
+  },
+  {
+    "id": 2,
+    "link": "/family-guy",
+    "title": "Гриффины",
+    "image": "/images/family-guy.jpeg"
+  },
+  {
+    "id": 3,
+    "link": "/futurama",
+    "title": "Футурама",
+    "image": "/images/futurama.jpeg"
+  },
+  {
+    "id": 4,
+    "link": "/adventure-time",
+    "title": "Время приключений",
+    "image": "/images/adventure-time.jpeg"
+  },
+  {
+    "id": 5,
+    "link": "/disenchantment",
+    "title": "Разочарование",
+    "image": "/images/disenchantment.jpeg"
+  },
+  {
+    "id": 6,
+    "link": "/south-park",
+    "title": "Южный парк",
+    "image": "/images/south-park.jpeg"
+  }
+]

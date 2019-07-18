@@ -1,0 +1,90 @@
+.main-page {
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .card {
+      margin-top: 40px;
+    }
+  }
+
+  .title {
+    margin-bottom: 30px;
+    padding: 10px 0;
+    font-family: "Exo 2";
+    font-weight: normal;
+    font-size: 28px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    background: url("/images/mini-header.png") top left;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+  }
+
+  .loading {
+    text-align: center;
+
+    .icon {
+      color: #666;
+      animation: rotate 1s linear infinite;
+    }
+
+    span {
+      margin-left: 10px;
+      font-size: 20px;
+    }
+  }
+}
+
+@media (min-width: 1500px) {
+  .main-page {
+    .cards .card {
+      width: 31%;
+
+      &:nth-child(1) {
+        margin-top: 0;
+      }
+      &:nth-child(2) {
+        margin-top: 0;
+      }
+      &:nth-child(3) {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+@media (min-width: 990px) and (max-width: 1499px) {
+  .main-page {
+    .cards .card {
+      width: 48%;
+  
+      &:nth-child(1) {
+        margin-top: 0;
+      }
+      &:nth-child(2) {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 989px) {
+  .main-page {
+    .cards .card {
+      &:nth-child(1) {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
